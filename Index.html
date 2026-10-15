@@ -6,6 +6,21 @@
     <title>Politica de privacidade - SleepInBus</title>
 </head>
 <body>
-    <h1>Teste</h1>
+    <h1>Te zmly oco muito</h1>
+    <p>Casa comigo?</p>
+    <input type="radio" name="sim" value="sim"> Sim<br>
+    <input type="radio" name="nao" value="nao"> Não<br>
+    <script>
+        const radios = document.querySelectorAll('input[type="radio"]');
+        radios.forEach(radio => {
+            radio.addEventListener('change', () => {
+                if (radio.value === 'sim') {
+                    alert('UHUUUUL :D');
+                } else {
+                    alert('vai sim, ja pagou o caraio do cartorio >:(');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
