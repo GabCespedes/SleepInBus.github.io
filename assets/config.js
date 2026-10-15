@@ -1,14 +1,14 @@
 /*
- * Change this file first. It powers the optional landing page and the footer.
- * Legal text lives in privacy.html and terms.html and must be written for SleepInBus.
+ * Altere este arquivo primeiro. Ele fornece dados para a página inicial e o rodapé.
+ * O conteúdo jurídico está em privacy.html e terms.html e deve ser específico para o SleepInBus.
  */
 window.APP_CONFIG = {
   name: "SleepInBus",
-  tagline: "A short sentence explaining what SleepInBus helps people do.",
-  description: "Use this optional landing page to introduce SleepInBus and link to its legal and Suporte pages.",
-  developerName: "Your company or name",
+  tagline: "Uma frase curta que explique como o SleepInBus pode ajudar.",
+  description: "Use esta página inicial para apresentar o SleepInBus e incluir links para as páginas de informações e suporte.",
+  developerName: "Nome da sua empresa ou do responsável",
   SuporteEmail: "Suporte@example.com",
   appStoreUrl: "#",
   primaryColor: "#7647eb",
-  updatedAt: "September 4, 2026"
+  updatedAt: "4 de setembro de 2026"
 };
