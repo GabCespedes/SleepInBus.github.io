@@ -1,14 +1,15 @@
 /*
- * Altere este arquivo primeiro. Ele fornece dados para a página inicial e o rodapé.
- * O conteúdo jurídico está em privacy.html e terms.html e deve ser específico para o SleepInBus.
+ * Configuração central do site do SleepInBus.
+ * Alimenta a página inicial, o rodapé e os campos de contato/data das demais páginas.
+ * O conteúdo jurídico (privacy.html e terms.html) é específico do app e não depende daqui.
  */
 window.APP_CONFIG = {
   name: "SleepInBus",
-  tagline: "Uma frase curta que explique como o SleepInBus pode ajudar.",
-  description: "Use esta página inicial para apresentar o SleepInBus e incluir links para as páginas de informações e suporte.",
-  developerName: "Nome da sua empresa ou do responsável",
-  SuporteEmail: "Suporte@example.com",
+  tagline: "Durma tranquilo no ônibus: a gente te avisa antes da sua parada.",
+  description: "O SleepInBus acompanha sua viagem de ônibus e avisa quando você está chegando perto do destino, para você relaxar sem medo de perder o ponto.",
+  developerName: "MikaelGzana e GabCespedes",
+  SuporteEmail: "sleepinbus.app@gmail.com",
   appStoreUrl: "#",
   primaryColor: "#7647eb",
-  updatedAt: "4 de setembro de 2026"
+  updatedAt: "21 de outubro de 2026"
 };
